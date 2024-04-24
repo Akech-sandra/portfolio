@@ -1,0 +1,31 @@
+/* Style the navigation bar */
+nav {
+    background-color: #333; /* Set background color */
+    overflow: hidden; /* Clear floats for proper layout */
+    padding: 10px 0; /* Add some padding  */
+  }
+  
+  /* Style the navigation links */
+  nav ul {
+    list-style: none; /* Remove default list style */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default paddings */
+  }
+  
+  nav li {
+    float: left; /* Float links to the left */
+  }
+  
+  nav li a {
+    display: block; /* Make links behave like boxes */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Add padding to links */
+  }
+  
+  /* Add hover effect to links */
+  nav li a:hover {
+    background-color: #ddd; /* Background color on hover */
+    color: black; /* Text color on hover */
+  }
+  
